@@ -6,7 +6,7 @@
     inject = require('gulp-inject'),    
     open = require('gulp-open'); 
 
-var jsSources = ['app/*.js'],
+var jsSources = ['app/**/*.js'],
     cssSources = ['app/**/*.css'],
     htmlSources = ['**/*.html'];
 
@@ -19,7 +19,7 @@ gulp.task('watch', function() {
 var paths = ['./bower_components/', './app/module/*.js','./app/**/*.js','./app/**/*.css'];
 
 gulp.task('injectables', function() {
-    var sources = gulp.src(paths, {read: false});
+    var sources = gulp.src(paths, {read: false}, "!./bower_components/markerclustererplus/*");
     return gulp.src('index.html')
         .pipe(wiredep())
         .pipe(inject(sources))

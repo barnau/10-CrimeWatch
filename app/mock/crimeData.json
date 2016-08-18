@@ -1,11 +1,12 @@
- [{
+[{
  	"cdid": 81375486,
  	"type": "Vandalism",
  	"date": "08/16/16 07:30 PM",
  	"address": "1900 BLOCK JULIAN AVENUE",
  	"link": "http://spotcrime.com/crime/81375486-ec45e2e4be73705d6744b52ff2d9e151",
  	"lat": 32.7031089,
- 	"lon": -117.1427113
+ 	"lon": -117.1427113,
+ 	"crimeID": "Vandalizer spray paints over local mural" 
  }, {
  	"cdid": 81375489,
  	"type": "Theft",
@@ -13,7 +14,8 @@
  	"address": "3100 BLOCK LOGAN AVENUE",
  	"link": "http://spotcrime.com/crime/81375489-b95c43b74e6e05e94278b1df9b936fb7",
  	"lat": 32.6970075,
- 	"lon": -117.1272786
+ 	"lon": -117.1272786,
+ 	"crimeID": "Jewlery stolen from antique store"
  }, {
  	"cdid": 81375455,
  	"type": "Robbery",
@@ -21,7 +23,8 @@
  	"address": "1400 BLOCK J STREET",
  	"link": "http://spotcrime.com/crime/81375455-c13fe1c2cc6be82a4aef28180d7a7b0e",
  	"lat": 32.709427,
- 	"lon": -117.1518804
+ 	"lon": -117.1518804,
+ 	"crimeID": "House broken into with surround sound system stolen"
  }, {
  	"cdid": 81373705,
  	"type": "Other",
@@ -29,7 +32,8 @@
  	"address": "2200 BLOCK UNIVERSITY AVENUE",
  	"link": "http://spotcrime.com/crime/81373705-5314d5a19e33ee1fe3dfcf01a5ec2152",
  	"lat": 32.7486134,
- 	"lon": -117.1408936
+ 	"lon": -117.1408936,
+ 	"crimeID": "Couple ran around exposed in public"
  }, {
  	"cdid": 81375454,
  	"type": "Theft",
@@ -37,7 +41,8 @@
  	"address": "600 BLOCK 05TH AVENUE",
  	"link": "http://spotcrime.com/crime/81375454-052a9cf1704ecb13bd3396724955a9e0",
  	"lat": 32.7119326,
- 	"lon": -117.1604126
+ 	"lon": -117.1604126,
+ 	"crimeID": "Bicycle stolen from Sheriff's daughter"
  }, {
  	"cdid": 81375246,
  	"type": "Burglary",
@@ -45,7 +50,8 @@
  	"address": "500 BLOCK LEWIS STREET",
  	"link": "http://spotcrime.com/crime/81375246-f2fc6b219aac49d6c6b6a54122efb2d0",
  	"lat": 32.7519034,
- 	"lon": -117.1604541
+ 	"lon": -117.1604541,
+ 	"crimeID": "Stereo stolen from parked vehicle"
  }, {
  	"cdid": 81373686,
  	"type": "Arrest",
@@ -53,7 +59,8 @@
  	"address": "4000 BLOCK MARKET STREET",
  	"link": "http://spotcrime.com/crime/81373686-750929c5c53e6ae5beb488610fdace14",
  	"lat": 32.7115397,
- 	"lon": -117.1086643
+ 	"lon": -117.1086643,
+ 	"crimeID": "Arrest placed on individual with search warrant"
  }, {
  	"cdid": 81375146,
  	"type": "Assault",
@@ -61,7 +68,8 @@
  	"address": "3100 BLOCK 03RD AVENUE",
  	"link": "http://spotcrime.com/crime/81375146-544fa7ffd9f76e63686d9a0b28322cde",
  	"lat": 32.7376854,
- 	"lon": -117.1622527
+ 	"lon": -117.1622527,
+ 	"crimeID": "Unsuspecting women assaulted during night walk"
  }, {
  	"cdid": 81373685,
  	"type": "Arrest",
@@ -69,7 +77,8 @@
  	"address": "3000 BLOCK IMPERIAL AVENUE",
  	"link": "http://spotcrime.com/crime/81373685-0e464314f070e5f261a18002b7f1f875",
  	"lat": 32.7064196,
- 	"lon": -117.1295202
+ 	"lon": -117.1295202,
+ 	"crimeID": "Suspect apprehended at beach house"
  }, {
  	"cdid": 81375090,
  	"type": "Vandalism",
@@ -77,7 +86,8 @@
  	"address": "3700 BLOCK 07TH AVENUE",
  	"link": "http://spotcrime.com/crime/81375090-f138f178f1fa3d7c97b6ce9532762e29",
  	"lat": 32.7451605,
- 	"lon": -117.1584012
+ 	"lon": -117.1584012,
+ 	"crimeID": "Park mural desecrated by vandalizers"
  }, {
  	"cdid": 81376471,
  	"type": "Theft",
@@ -85,7 +95,8 @@
  	"address": "200 BLOCK 17TH STREET",
  	"link": "http://spotcrime.com/crime/81376471-d07dbb2b0c581649915fa8850868db71",
  	"lat": 32.7073283,
- 	"lon": -117.1485659
+ 	"lon": -117.1485659,
+ 	"crimeID": "Lollipop taken from child"
  }, {
  	"cdid": 81371003,
  	"type": "Other",
@@ -93,7 +104,8 @@
  	"address": "3600 BLOCK NORTH HARBOR DRIVE",
  	"link": "http://spotcrime.com/crime/81371003-49ae99f41c15fb55f86ffa2068cf97ce",
  	"lat": 32.7292915,
- 	"lon": -117.2002145
+ 	"lon": -117.2002145,
+ 	"crimeID": "Man flashed unsuspecting audience at transit station"
  }, {
  	"cdid": 81376474,
  	"type": "Theft",
@@ -101,7 +113,8 @@
  	"address": "500 BLOCK 16TH STREET",
  	"link": "http://spotcrime.com/crime/81376474-2317921427e98feadfb7cd380946003e",
  	"lat": 32.7104646,
- 	"lon": -117.1494631
+ 	"lon": -117.1494631,
+ 	"crimeID": "1993 Nissan Sentra stolen from driveway"
  }, {
  	"cdid": 81375449,
  	"type": "Burglary",
@@ -109,7 +122,8 @@
  	"address": "3600 BLOCK STATE STREET",
  	"link": "http://spotcrime.com/crime/81375449-8fe5c1f809f299bb207efc34a2e81828",
  	"lat": 32.7415917,
- 	"lon": -117.1776833
+ 	"lon": -117.1776833,
+ 	"crimeID": "Furniture stolen from apartment complex"
  }, {
  	"cdid": 81376493,
  	"type": "Burglary",
@@ -117,7 +131,8 @@
  	"address": "700 BLOCK KETTNER BOULEVARD",
  	"link": "http://spotcrime.com/crime/81376493-acbadde4eea5bc84fe279bbb7dbd75ef",
  	"lat": 32.711734,
- 	"lon": -117.169768
+ 	"lon": -117.169768,
+ 	"crimeID": "House broken into with severe property damage"
  }, {
  	"cdid": 81371001,
  	"type": "Arrest",
@@ -125,7 +140,8 @@
  	"address": "500 BLOCK 04TH AVENUE",
  	"link": "http://spotcrime.com/crime/81371001-ef3c27cd12649dad57a142286cf54997",
  	"lat": 32.710671,
- 	"lon": -117.161324
+ 	"lon": -117.161324,
+ 	"crimeID": "Search warrant led to several arrest downtown San Diego"
  }, {
  	"cdid": 81356497,
  	"type": "Arson",
@@ -133,7 +149,8 @@
  	"address": "CESAR E CHAVEZ PARKWAY",
  	"link": "http://spotcrime.com/crime/81356497-00549900a3fb16b87fc5e8a92ee1a71d",
  	"lat": 32.7006603,
- 	"lon": -117.1450526
+ 	"lon": -117.1450526,
+ 	"crimeID": "House burnt down in fiery revenge plot on teacher for giving student a bad grade"
  }, {
  	"cdid": 81374951,
  	"type": "Burglary",
@@ -141,7 +158,8 @@
  	"address": "2100 BLOCK PACIFIC HIGHWAY",
  	"link": "http://spotcrime.com/crime/81374951-2734572ca5fa20a43a3c378054a51be0",
  	"lat": 32.7255609,
- 	"lon": -117.1720991
+ 	"lon": -117.1720991,
+ 	"crimeID": "Car dealership broken into through pickup truck"
  }, {
  	"cdid": 81356494,
  	"type": "Arson",
@@ -149,7 +167,8 @@
  	"address": "CESAR E CHAVEZ PARKWAY",
  	"link": "http://spotcrime.com/crime/81356494-1848e212a0e84b4d6b615cea7356adf8",
  	"lat": 32.7006603,
- 	"lon": -117.1450526
+ 	"lon": -117.1450526,
+ 	"crimeID": "Local park playground structure uprooted by arsonists "
  }, {
  	"cdid": 81373661,
  	"type": "Arrest",
@@ -157,7 +176,8 @@
  	"address": "1000 BLOCK ROBINSON AVENUE",
  	"link": "http://spotcrime.com/crime/81373661-e34b0d73b5457d677a2df6efda379e80",
  	"lat": 32.7464198,
- 	"lon": -117.1552801
+ 	"lon": -117.1552801,
+ 	"crimeID": "Arrest placed on elderly women following riot in grocery store"
  }, {
  	"cdid": 81373659,
  	"type": "Arrest",
@@ -165,7 +185,8 @@
  	"address": "1700 BLOCK BROADWAY",
  	"link": "http://spotcrime.com/crime/81373659-779b817cefbec49d20dd37e85911a07d",
  	"lat": 32.7157835,
- 	"lon": -117.148366
+ 	"lon": -117.148366,
+ 	"crimeID": "Arrest made on possible murder suspect"
  }, {
  	"cdid": 81374800,
  	"type": "Assault",
@@ -173,7 +194,8 @@
  	"address": "300 BLOCK UNIVERSITY AVENUE",
  	"link": "http://spotcrime.com/crime/81374800-202f6a5aade17ae07ab93b332af73dc4",
  	"lat": 32.7482667,
- 	"lon": -117.1627479
+ 	"lon": -117.1627479,
+ 	"crimeID": "Software developer attacked by homeless assailant "
  }, {
  	"cdid": 81372374,
  	"type": "Arrest",
@@ -181,7 +203,8 @@
  	"address": "1100 BLOCK FRONT STREET",
  	"link": "http://spotcrime.com/crime/81372374-ff9f5908602dc289ed88f9eee64b8995",
  	"lat": 32.7167857,
- 	"lon": -117.1647665
+ 	"lon": -117.1647665,
+ 	"crimeID": "Arrests made after big drug bust"
  }, {
  	"cdid": 81373639,
  	"type": "Arrest",
@@ -189,7 +212,8 @@
  	"address": "500 BLOCK 15TH STREET",
  	"link": "http://spotcrime.com/crime/81373639-f99e17bfcd3721f3caf0b0e8c7f6e930",
  	"lat": 32.7104591,
- 	"lon": -117.1503748
+ 	"lon": -117.1503748,
+ 	"crimeID": "Search warrant leads to arrest of man hiding several pounds of cocaine"
  }, {
  	"cdid": 81374766,
  	"type": "Theft",
@@ -197,7 +221,8 @@
  	"address": "200 BLOCK BROADWAY",
  	"link": "http://spotcrime.com/crime/81374766-b6c56f3bbf1ca894b252290c83e69fb1",
  	"lat": 32.7159627,
- 	"lon": -117.1627076
+ 	"lon": -117.1627076,
+ 	"crimeID": "Equipment stolen from shoe factory"
  }, {
  	"cdid": 81374774,
  	"type": "Assault",
@@ -205,7 +230,8 @@
  	"address": "300 BLOCK J STREET",
  	"link": "http://spotcrime.com/crime/81374774-6610fd1f211ed40a0816cb604f0ccdc2",
  	"lat": 32.7093984,
- 	"lon": -117.1619253
+ 	"lon": -117.1619253,
+ 	"crimeID": "Man knocked unconscious over argument about whose car was cleaner"
  }, {
  	"cdid": 81373637,
  	"type": "Arrest",
@@ -213,7 +239,8 @@
  	"address": "2500 BLOCK IMPERIAL AVENUE",
  	"link": "http://spotcrime.com/crime/81373637-d8e652af6ddeef47414d057760a2df55",
  	"lat": 32.7063565,
- 	"lon": -117.1402135
+ 	"lon": -117.1402135,
+ 	"crimeID": "Suspect taken into custody after lengthy interrogation"
  }, {
  	"cdid": 81374721,
  	"type": "Theft",
@@ -221,7 +248,8 @@
  	"address": "3700 BLOCK ACACIA STREET",
  	"link": "http://spotcrime.com/crime/81374721-133283cbaa7afedc5b9c736a90b7ead0",
  	"lat": 32.6901353,
- 	"lon": -117.1141314
+ 	"lon": -117.1141314,
+ 	"crimeID": "Ice cream inventory stolen from local business owner"
  }, {
  	"cdid": 81376465,
  	"type": "Theft",
@@ -229,7 +257,8 @@
  	"address": "500 BLOCK 16TH STREET",
  	"link": "http://spotcrime.com/crime/81376465-110769deef8748a8f15a164d24768513",
  	"lat": 32.7104646,
- 	"lon": -117.1494631
+ 	"lon": -117.1494631,
+ 	"crimeID": "Stereo forcibly taken from vehicle"
  }, {
  	"cdid": 81376484,
  	"type": "Theft",
@@ -237,7 +266,8 @@
  	"address": "2500 BLOCK WIGHTMAN STREET",
  	"link": "http://spotcrime.com/crime/81376484-1a77064815d845a9ce0a39b6c6c376f1",
  	"lat": 32.7475798,
- 	"lon": -117.1379031
+ 	"lon": -117.1379031,
+ 	"crimeID": "Bank heist"
  }, {
  	"cdid": 81374704,
  	"type": "Theft",
@@ -245,7 +275,8 @@
  	"address": "700 BLOCK UNIVERSITY AVENUE",
  	"link": "http://spotcrime.com/crime/81374704-f30b711602a31855b1c1ab6660a6f95e",
  	"lat": 32.7483829,
- 	"lon": -117.1583868
+ 	"lon": -117.1583868,
+ 	"crimeID": "Motorcyle stolen"
  }, {
  	"cdid": 81376349,
  	"type": "Theft",
@@ -253,7 +284,8 @@
  	"address": "4500 BLOCK NORTH AVENUE",
  	"link": "http://spotcrime.com/crime/81376349-1335177eab3c7f4e17c35768706908d5",
  	"lat": 32.7591164,
- 	"lon": -117.1475713
+ 	"lon": -117.1475713,
+ 	"crimeID": "Pickpocketer takes 43 wallets in span of one hour"
  }, {
  	"cdid": 81374821,
  	"type": "Assault",
@@ -261,7 +293,8 @@
  	"address": "600 BLOCK BROADWAY",
  	"link": "http://spotcrime.com/crime/81374821-35a114adf1aeaaa607dd265738cbe497",
  	"lat": 32.7157765,
- 	"lon": -117.1592634
+ 	"lon": -117.1592634,
+ 	"crimeID": "Man stabbed over unpaid electric bill"
  }, {
  	"cdid": 81375067,
  	"type": "Robbery",
@@ -269,7 +302,8 @@
  	"address": "1100 BLOCK 05TH AVENUE",
  	"link": "http://spotcrime.com/crime/81375067-08cbaa36480358762812446121b6b50b",
  	"lat": 32.7168925,
- 	"lon": -117.1603638
+ 	"lon": -117.1603638,
+ 	"crimeID": "Rubber duck stolen from duck enthusiast"
  }, {
  	"cdid": 81376476,
  	"type": "Theft",
@@ -277,7 +311,8 @@
  	"address": "600 BLOCK BROADWAY",
  	"link": "http://spotcrime.com/crime/81376476-2b2078390132e7797f6c592b53d9de23",
  	"lat": 32.7157765,
- 	"lon": -117.1592634
+ 	"lon": -117.1592634,
+ 	"crimeID": "Banana taken from starving monkey"
  }, {
  	"cdid": 81374762,
  	"type": "Burglary",
@@ -285,7 +320,8 @@
  	"address": "1000 BLOCK 08TH AVENUE",
  	"link": "http://spotcrime.com/crime/81374762-03728bafe00eeeaf4906a98785b38500",
  	"lat": 32.7157615,
- 	"lon": -117.1574645
+ 	"lon": -117.1574645,
+ 	"crimeID": "Contents from storage house, including the Milenium Falcon"
  }, {
  	"cdid": 81373630,
  	"type": "Arrest",
@@ -293,7 +329,8 @@
  	"address": "900 BLOCK 08TH AVENUE",
  	"link": "http://spotcrime.com/crime/81373630-c20236925951badfcfae2c69f2b25f4d",
  	"lat": 32.7156812,
- 	"lon": -117.1574615
+ 	"lon": -117.1574615,
+ 	"crimeID": "Teenager taken into custody over family feud"
  }, {
  	"cdid": 81374764,
  	"type": "Burglary",
@@ -301,7 +338,8 @@
  	"address": "3500 BLOCK ISLAND AVENUE",
  	"link": "http://spotcrime.com/crime/81374764-6eda1a40a81f00eb746eedeb00f981c5",
  	"lat": 32.7105671,
- 	"lon": -117.1180322
+ 	"lon": -117.1180322,
+ 	"crimeID": "Books stolen from library"
  }, {
  	"cdid": 81376344,
  	"type": "Burglary",
@@ -309,7 +347,8 @@
  	"address": "200 BLOCK HARBOR DRIVE",
  	"link": "http://spotcrime.com/crime/81376344-db32f8d338aa50b22212e22fd0b74412",
  	"lat": 32.7089166,
- 	"lon": -117.1625216
+ 	"lon": -117.1625216,
+ 	"crimeID": "Pasta inventory taken from local restaurant"
  }, {
  	"cdid": 81252995,
  	"type": "Robbery",
@@ -317,7 +356,8 @@
  	"address": "1200 BLOCK OF UNIVERSITY AVE.",
  	"link": "http://spotcrime.com/crime/81252995-bfd58657136c50ace0a6fd10d31cf154",
  	"lat": 32.7491233,
- 	"lon": -117.1521992
+ 	"lon": -117.1521992,
+ 	"crimeID": "Hardware equipment taken from district office"
  }, {
  	"cdid": 81374598,
  	"type": "Robbery",
@@ -325,7 +365,8 @@
  	"address": "1200 BLOCK UNIVERSITY AVENUE",
  	"link": "http://spotcrime.com/crime/81374598-4df8ba513873b43530d0a10191f9b077",
  	"lat": 32.748567,
- 	"lon": -117.1534526
+ 	"lon": -117.1534526,
+ 	"crimeID": "Olympic swimmer held at gunpoint over contents in pocket"
  }, {
  	"cdid": 81374550,
  	"type": "Assault",
@@ -333,7 +374,8 @@
  	"address": "2100 BLOCK HARRISON AVENUE",
  	"link": "http://spotcrime.com/crime/81374550-2196c47c521e7bec39ef7a7aa17ee643",
  	"lat": 32.7024356,
- 	"lon": -117.1377847
+ 	"lon": -117.1377847,
+ 	"crimeID": "Domestic abuse over cheating spouse"
  }, {
  	"cdid": 81375581,
  	"type": "Theft",
@@ -341,7 +383,8 @@
  	"address": "4000 BLOCK 01ST AVENUE",
  	"link": "http://spotcrime.com/crime/81375581-c721225ac2880b4293ff1d185a9a1be4",
  	"lat": 32.7499658,
- 	"lon": -117.163935
+ 	"lon": -117.163935,
+ 	"crimeID": "Livestock taken from farm overnight"
  }, {
  	"cdid": 81374534,
  	"type": "Theft",
@@ -349,7 +392,8 @@
  	"address": "300 BLOCK MARKET STREET",
  	"link": "http://spotcrime.com/crime/81374534-24ccd8d4eb947c986551596bb8a87a85",
  	"lat": 32.7115398,
- 	"lon": -117.1619479
+ 	"lon": -117.1619479,
+ 	"crimeID": "Ninjas steal contents from moving train"
  }, {
  	"cdid": 81374527,
  	"type": "Assault",
@@ -357,7 +401,8 @@
  	"address": "1200 S BLOCK 37TH STREET",
  	"link": "http://spotcrime.com/crime/81374527-f2589c0fa03f5b86fa10fac975f0c5e8",
  	"lat": 32.6939466,
- 	"lon": -117.1145949
+ 	"lon": -117.1145949,
+ 	"crimeID": "Children assaulted by disgrunted man"
  }, {
  	"cdid": 81374785,
  	"type": "Assault",
@@ -365,7 +410,8 @@
  	"address": "3900 BLOCK GOLDFINCH STREET",
  	"link": "http://spotcrime.com/crime/81374785-3f4a6fecb9b1a1ac82f3fb5a8911a8ff",
  	"lat": 32.74834,
- 	"lon": -117.1713778
+ 	"lon": -117.1713778,
+ 	"crimeID": "Elderly woman attacked by wrestler"
  }, {
  	"cdid": 81374284,
  	"type": "Assault",
@@ -373,7 +419,8 @@
  	"address": "1100 BLOCK PARK BOULEVARD",
  	"link": "http://spotcrime.com/crime/81374284-a68106d9ea8acb17f71a441372099717",
  	"lat": 32.7168047,
- 	"lon": -117.1538859
+ 	"lon": -117.1538859,
+ 	"crimeID": "Barber's wife assaults customer"
  }, {
  	"cdid": 81370999,
  	"type": "Arrest",
@@ -381,7 +428,8 @@
  	"address": "3600 BLOCK NORTH HARBOR DRIVE",
  	"link": "http://spotcrime.com/crime/81370999-1cab60b43ebea63b1af27c067798ede9",
  	"lat": 32.7292915,
- 	"lon": -117.2002145
+ 	"lon": -117.2002145,
+ 	"crimeID": "Drug dealer apprehended before cross into U.S. territory"
  }, {
  	"cdid": 81374432,
  	"type": "Burglary",
@@ -389,7 +437,8 @@
  	"address": "1100 BLOCK 10TH AVENUE",
  	"link": "http://spotcrime.com/crime/81374432-7c1251058054d6a8a8a4f335fad3f0d0",
  	"lat": 32.7168372,
- 	"lon": -117.1556524
+ 	"lon": -117.1556524,
+ 	"crimeID": "Crates taken from warehouse"
  }, {
  	"cdid": 81370998,
  	"type": "Other",
@@ -397,5 +446,6 @@
  	"address": "3600 BLOCK NORTH HARBOR DRIVE",
  	"link": "http://spotcrime.com/crime/81370998-07a6f47a9cc367392090da422c9906d8",
  	"lat": 32.7292915,
- 	"lon": -117.2002145
+ 	"lon": -117.2002145,
+ 	"crimeID": "Repeat offender intoxicated in public"
  }]
