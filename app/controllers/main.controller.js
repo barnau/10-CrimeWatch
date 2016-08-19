@@ -5,10 +5,10 @@
         .module('app')
         .controller('MainController', MainController);
 
-    MainController.$inject = ['DataFactory', '$stateParams'];
+    MainController.$inject = ['DataFactory', '$stateParams', 'geocoder', '$scope'];
 
     /* @ngInject */
-    function MainController(DataFactory, $stateParams) {
+    function MainController(DataFactory, $stateParams, geocoder, $scope) {
         var vm = this;
         vm.title = 'MainController';
         vm.test = 'this is a test from MainController';
@@ -16,6 +16,7 @@
         vm.markers = [];
         vm.isDetailsShowing = false;
         vm.detail = {};
+        vm.my_place_id = "ChIJdd4hrwug2EcRmSrV3Vo6llI";
         
 
         vm.map = { center: { latitude: 32.7157, longitude: -117.1611 }, zoom: 12, };
@@ -27,6 +28,8 @@
             optionsKey: "options",
             events: {
                 click: function(marker, eventName, model) {
+                    debugger;
+
                     vm.isDetailsShowing = true;
 
                     if(model.position.type === 'Burglary') {
@@ -50,12 +53,11 @@
                     vm.detail.address = model.position.address;
                     vm.detail.story = model.position.crimeID;
                     vm.detail.category = model.position.type;
+
+                    $scope.$apply();
                 }
             }
         };
-
-        
-
         
 
         DataFactory.getCrimeData().then(
@@ -137,6 +139,15 @@
 
         }
 
+        vm.setMapCenter = function() {
+            console.log(vm.out.geometry.location.lat());
+
+            var x = vm.out.geometry.location.lat();
+            var y = vm.out.geometry.location.lng();
+
+            angular.extend(vm.map, { center: { latitude: x, longitude: y }, zoom: 12 });
+            
+        }
 
 
         

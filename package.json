@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular-google-maps-geocoder": "0.0.2",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-inject": "^4.1.0",

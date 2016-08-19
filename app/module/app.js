@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app', ['ui.router', 'toastr', 'uiGmapgoogle-maps' ])
+        .module('app', ['ui.router', 'toastr', 'uiGmapgoogle-maps', 'angular-google-maps-geocoder'])
 
         .config(function($stateProvider, $urlRouterProvider){
         	$urlRouterProvider.otherwise('/main');
