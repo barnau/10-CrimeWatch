@@ -74,7 +74,12 @@
 
         var filterCrimeDataByType = function(crimeDataArray, type) {
             var rArr = [];
+
+
+            if(type !="all") {
+
             crimeDataArray.forEach(function(crimeSet) {
+
                 if(crimeSet.type == type) {
                     
                     rArr.push(crimeSet);
@@ -85,6 +90,9 @@
             );
 
             return rArr;
+            } else {
+                return vm.crimeData;
+            }
 
         };
 
@@ -120,6 +128,7 @@
             
 
             tempArray = filterCrimeDataByType(tempArray, type);
+            console.log(tempArray);
 
             vm.markers.models = [];
 

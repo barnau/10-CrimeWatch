@@ -1,5 +1,21 @@
-.angular-google-map-container { height: 400px; width: 561px; };
-
-.btn-block {
-	width: 561px;
+.angular-google-map-container { 
+	height: 400px; width: 561px; 
+	margin:0;
+	padding:0;
 }
+
+#map-panel-body {
+	padding-left: 40px;
+}
+
+.panel-info > .panel-heading {
+	padding-left: 40px;
+
+}
+
+#reset-button {
+	width:565px;	
+}
+
+
+
