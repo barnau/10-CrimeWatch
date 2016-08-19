@@ -16,6 +16,7 @@
         vm.markers = [];
         vm.isDetailsShowing = false;
         vm.detail = {};
+        
 
         vm.map = { center: { latitude: 32.7157, longitude: -117.1611 }, zoom: 12, };
 
@@ -55,12 +56,66 @@
 
         
 
+        
+
         DataFactory.getCrimeData().then(
             function(response) {
                 vm.crimeData = response.data;
 
+                pushCrimeDataToMarkersModel(vm.crimeData);
 
-                vm.crimeData.forEach(function(crime, index) {
+                
+
+                
+
+                // vm.crimeData.forEach(function(crime, index) {
+                //     vm.markers.models.push({
+                //         position: {
+                //             latitude: crime.lat,
+                //             longitude: crime.lon,
+                //             address: crime.address,
+                //             type: crime.type,
+                //             crimeID: crime.crimeID
+                //         },
+                //         options: {
+                //             // title: crime.type,
+                //             animation: google.maps.Animation.DROP,
+                //             label: crime.type
+
+                //         },
+                //         id: index
+                //     });
+                // });
+            },
+            function(error) {
+                vm.error = error;
+            }
+        );
+
+
+
+        var filterCrimeDataByType = function(crimeDataArray, type) {
+            var rArr = [];
+            crimeDataArray.forEach(function(crimeSet) {
+                if(crimeSet.type == type) {
+                    
+                    rArr.push(crimeSet);
+                }
+
+                
+                return rArr;
+            });
+
+
+
+        };
+
+
+        
+
+        var pushCrimeDataToMarkersModel = function(crimeDataArray) {
+
+            crimeDataArray.forEach(function(crime, index) {
                     vm.markers.models.push({
                         position: {
                             latitude: crime.lat,
@@ -78,20 +133,12 @@
                         id: index
                     });
                 });
-            },
-            function(error) {
-                vm.error = error;
-            }
-        );
+
+        };
 
 
 
-        // MovieFactory.getMovieDetailData(vm.movieName).then(
-        //     function(response) {
-        //         console.log(response.data);
-        //         vm.movieDetails = response.data;
-
-        // });
+        
 
 
         activate();
