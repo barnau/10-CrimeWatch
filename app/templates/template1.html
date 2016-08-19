@@ -1,12 +1,36 @@
 <h1>Template 1 {{main.test}}</h1>
 <div class="row">	
-		<div class="col-md-6">	
-			<ui-gmap-google-map center='main.map.center' zoom='main.map.zoom'>
-				<ui-gmap-markers models="main.markers.models" coords="main.markers.coordsKey" idkey="main.markers.idKey" options="		main.markers.optionsKey" events="main.markers.events">
-				</ui-gmap-markers>
-			</ui-gmap-google-map>
+		<div class="col-md-7">	
+		<div class="panel panel-primary">
+                    <div class="panel-heading">
+                    	<div class="btn-group">
+							<button ng-click="main.pushFilteredMarkers('Burglary')" class="btn btn-primary" type="button">Burglary</button>
+							<button ng-click="main.pushFilteredMarkers('Assault')" class="btn btn-primary" type="button">Assault</button>
+							<button ng-click="main.pushFilteredMarkers('Arrest')" class="btn btn-primary" type="button">Arrest</button>
+							<button ng-click="main.pushFilteredMarkers('Other')" class="btn btn-primary" type="button">Other</button>
+							<button ng-click="main.pushFilteredMarkers('Theft')" class="btn btn-primary" type="button">Theft</button>
+							<button ng-click="main.pushFilteredMarkers('Robbery')" class="btn btn-primary" type="button">Robbery</button>
+							<button ng-click="main.pushFilteredMarkers('Arson')" class="btn btn-primary" type="button">Arson</button>
+							<button ng-click="main.pushFilteredMarkers('Vandalism')" class="btn btn-primary" type="button">Vandalism</button>
+						</div>
+
+                    </div>
+                    <div class="panel-body">
+                    	<ui-gmap-google-map center='main.map.center' zoom='main.map.zoom'>
+							<ui-gmap-markers models="main.markers.models" coords="main.markers.coordsKey" idkey="main.markers.idKey" options="		main.markers.optionsKey" events="main.markers.events">
+							</ui-gmap-markers>
+						</ui-gmap-google-map>
+						<button class="btn btn-primary form-control">Reset</button>
+                    </div>
+                    
+                </div>
+
+			
+			
+			
+			
 		</div>
-		<div ng-show="main.isDetailsShowing" class="col-md-6">	
+		<div ng-show="main.isDetailsShowing" class="col-md-5">	
 				<div class="panel panel-primary">
                     <div class="panel-heading">{{main.detail.category}}</div>
                     <div class="panel-body">

@@ -64,28 +64,6 @@
 
                 pushCrimeDataToMarkersModel(vm.crimeData);
 
-                
-
-                
-
-                // vm.crimeData.forEach(function(crime, index) {
-                //     vm.markers.models.push({
-                //         position: {
-                //             latitude: crime.lat,
-                //             longitude: crime.lon,
-                //             address: crime.address,
-                //             type: crime.type,
-                //             crimeID: crime.crimeID
-                //         },
-                //         options: {
-                //             // title: crime.type,
-                //             animation: google.maps.Animation.DROP,
-                //             label: crime.type
-
-                //         },
-                //         id: index
-                //     });
-                // });
             },
             function(error) {
                 vm.error = error;
@@ -100,13 +78,13 @@
                 if(crimeSet.type == type) {
                     
                     rArr.push(crimeSet);
+                    }
+
                 }
 
-                
-                return rArr;
-            });
+            );
 
-
+            return rArr;
 
         };
 
@@ -135,6 +113,20 @@
                 });
 
         };
+
+        vm.pushFilteredMarkers= function(type) {
+
+            var tempArray = angular.copy(vm.crimeData);
+            
+
+            tempArray = filterCrimeDataByType(tempArray, type);
+
+            vm.markers.models = [];
+
+            pushCrimeDataToMarkersModel(tempArray);
+
+
+        }
 
 
 

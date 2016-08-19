@@ -1,1 +1,5 @@
-.angular-google-map-container { height: 400px; width: 400px; };
+.angular-google-map-container { height: 400px; width: 561px; };
+
+.btn-block {
+	width: 561px;
+}
