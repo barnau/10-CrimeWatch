@@ -16,7 +16,7 @@
         vm.markers = [];
         vm.isDetailsShowing = false;
         vm.detail = {};
-        vm.my_place_id = "ChIJdd4hrwug2EcRmSrV3Vo6llI";
+        vm.my_place_id = "";
         
 
         vm.map = { center: { latitude: 32.7157, longitude: -117.1611 }, zoom: 12, };
@@ -130,7 +130,6 @@
             
 
             tempArray = filterCrimeDataByType(tempArray, type);
-            console.log(tempArray);
 
             vm.markers.models = [];
 
@@ -140,7 +139,6 @@
         }
 
         vm.setMapCenter = function() {
-            console.log(vm.out.geometry.location.lat());
 
             var x = vm.out.geometry.location.lat();
             var y = vm.out.geometry.location.lng();
