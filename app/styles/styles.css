@@ -1,21 +1,58 @@
+body{
+	background-color: white;
+}
+
 .angular-google-map-container { 
 	height: 400px; width: 561px; 
 	margin:0;
 	padding:0;
 }
 
+
+
 #map-panel-body {
 	padding-left: 40px;
+	background-color: #565050;
 }
 
-.panel-info > .panel-heading {
-	padding-left: 40px;
+.panel{
+	box-shadow:0px 0px 5px 5px #C9C9C9;
+}
 
+.panel > .panel-heading {
+	background-color: black;
+	padding-left: 40px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-color: #3e3939;
+	color: white;
+}
+
+#searchBar{
+	background-color: #3e3939;
+	color: white;
+}
+
+button{
+	background-color: #c30000;
+	color: white;
 }
 
 #reset-button {
-	width:565px;	
+	width:565px;
+	background-color: #c30000;
 }
 
+.jumbotron{
+background-image: url('https://media4lifephotographydotcom.files.wordpress.com/2013/09/skyline-banner.jpg');
+background-size: 100%;
+background-position: 0px;
+color: #c30000;
+text-shadow: black 0.3em 0.3em 0.3em;
+font-family: 'Permanent Marker', cursive;
+box-shadow:0px 0px 5px 5px #C9C9C9;
+}
 
 
