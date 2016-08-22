@@ -55,4 +55,6 @@ font-family: 'Permanent Marker', cursive;
 box-shadow:0px 0px 5px 5px #C9C9C9;
 }
 
-
+#searchButton {
+	background-color: #c30000;
+}
