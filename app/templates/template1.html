@@ -7,12 +7,12 @@
 	      <div id="map-panel-head" class="panel-heading">
 	      	
 	      	<div class="btn-group">
-							<button ng-click="main.pushFilteredMarkers('Burglary')" class="btn" type="button">Burglary</button>
-							<button ng-click="main.pushFilteredMarkers('Assault')" class="btn" type="button">Assault</button>
 							<button ng-click="main.pushFilteredMarkers('Arrest')" class="btn" type="button">Arrest</button>
-							<button ng-click="main.pushFilteredMarkers('Theft')" class="btn" type="button">Theft</button>
-							<button ng-click="main.pushFilteredMarkers('Robbery')" class="btn" type="button">Robbery</button>
 							<button ng-click="main.pushFilteredMarkers('Arson')" class="btn" type="button">Arson</button>
+							<button ng-click="main.pushFilteredMarkers('Assault')" class="btn" type="button">Assault</button>
+							<button ng-click="main.pushFilteredMarkers('Burglary')" class="btn" type="button">Burglary</button>
+							<button ng-click="main.pushFilteredMarkers('Robbery')" class="btn" type="button">Robbery</button>
+							<button ng-click="main.pushFilteredMarkers('Theft')" class="btn" type="button">Theft</button>
 							<button ng-click="main.pushFilteredMarkers('Vandalism')" class="btn" type="button">Vandalism</button>
 							<button ng-click="main.pushFilteredMarkers('Other')" class="btn" type="button">Other</button>
 						</div>
@@ -29,6 +29,7 @@
 	      </div>
 
 	      	<form ng-submit="main.setMapCenter()" id="searchBar">
+				<div class="input-group">	
 				<div
 	                angular-google-maps-geocoder placeid="{{ main.my_place_id }}"
 	                output="main.out"
@@ -36,7 +37,10 @@
 	                min-length="5"
 	                wait-ms="500"
 	            ></div>
-           
+	            <span class="input-group-btn">
+	            	<button class="btn btn-danger" type="submit" id="searchButton">Search</button>
+	            </span>
+           		</div>
         	</form>  
 	    </div>
 		  
